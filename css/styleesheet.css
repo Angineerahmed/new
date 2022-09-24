@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    perspective: 600px;
+}
+.img1{
+    width: 100vw;
+    height: 90vh;
+}
+.img2{
+    animation-name:ahmed ;
+    animation-direction: 2s ;
+    -o-animation-iteration-count:calc(1) ;
+    animation-fill-mode:forwards ;
+    animation-delay: 1s;
+    position: absolute;
+}
+ @keyframes ahmed {
+    0%{
+       top:0;
+    }
+    100%{
+        top:30px;
+    }
+ }
+ /* .img2:after{
+    content: "";
+    position: absolute;
+    background-color: gray;
+    opacity: .4;
+    top: 0;
+    left: 0;
+   width: 100%;
+   height:0;
+    transition: 1s;
+ } */
+ /* .img2:hover:after{
+    width: 100%;
+    height: 100%;
+    transition: 1s;
+ } */
+ .videos{
+    margin-top: 500px;
+ }
+ .an:hover{ 
+    margin-top: -20px;
+   transform: scale(1.25);
+   transform: rotate(90dag);
+ }
